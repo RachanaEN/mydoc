@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let array=[];
+        console.log(array,typeof array);
+        let array1=[1,"hello",true,undefined,null,function a(){}];
+        console.log(array1,typeof array1);
+        let a="hi";
+        let a2=[10,20,30,40];
+        console.log(Array.isArray(a2));
+        let arr=["hello world",25,"raining",true];
+        console.log(arr);
+        console.log(arr[1]);//fetching the elements
+        console.log(arr[4]="cloudy");
+        console.log(arr);
+        console.log(delete arr[4]);
+        console.log(arr);// the size of the array wont change by deleting somevalue from the array its remains same
+        console.log(arr[0]="bye world");
+        console.log(arr);
+        console.log(arr[1]="25");
+        console.log(arr);
+        let newc=new Array();
+        console.log(newc,typeof newc);
+        console.log(newc[0]="keyboard");
+        console.log(newc);
+        console.log(newc[0]="mouse");
+        console.log(newc);
+        let m=[100,"hh",200,"hi"];
+        console.log(m);
+        console.log(m.push(1000,2000,"jspiders"));//adding the elements into array behind
+        console.log(m);
+        console.log(m.unshift(256));//adding the elements into the array front
+        console.log(m);
+        console.log(m.pop());
+        console.log(m);//removing the element from  an array which is in end
+        console.log(m.shift());
+        console.log(m);//removing the element from  an array ,which is in starting
+        </script>
+    
+</body>
+</html>

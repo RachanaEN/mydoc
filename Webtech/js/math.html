@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a=Math;
+        console.log(a,typeof a);
+        console.log("pi Number"+Math.PI);
+        console.log("square root of 1/sqroot of 2"+Math.SQRT1_2);
+        console.log(""+Math.SQRT2);
+        console.log(""+Math.abs(-100.24));//it won't allow negative values
+        console.log(""+Math.cbrt(1000));
+        console.log(""+Math.ceil(-51.123));
+        console.log(""+Math.floor(51.123))
+        console.log(""+Math.sqrt(4));
+        console.log(""+Math.max(1,2,3,4,5,6));
+        console.log(""+Math.min(1,2,3,4,5,6));
+        console.log(""+Math.pow(2,4));
+        console.log(""+Math.round(90.679));
+        console.log(""+Math.random()*10);
+        let random=Math.ceil(Math.random()*10000).toString(16);
+        console.log(random);
+        let body=document.querySelector('body');
+        console.log(body);
+        body.style.background=`#${random}`;
+let dt=Date();
+console.log(dt,typeof dt);
+let dt1=new Date();
+console.log(dt1,typeof dt1);
+console.log(dt1.getDay());
+let dt2=new Date(2024,11,20,11,55,10,5);
+console.log(dt2,typeof dt2);
+let dt3=new Date();
+console.log(dt3.getDate());
+console.log(dt3.getMonth());
+console.log(dt3.getFullYear());
+console.log(dt3.getHours());
+console.log(dt3.getMinutes());
+console.log(dt3.getSeconds());
+console.log(dt3.getMilliseconds());
+setTimeout(()=>{
+    console.log("1st statement");
+},4000)
+setTimeout(()=>{
+    console.log("2st statement");
+},3000)
+setTimeout(()=>{
+    console.log("3st statement");
+    add(5,5000)
+},2000)
+
+ letsetTimeout(()=>{
+    console.log("4th statement");
+},3000)
+let add=function(a,b){
+    console.log(a+b);
+}
+setInterval(() => {
+    console.log("7");
+    console.log("Rachana");
+}, 2000)
+console.log(set);
+set
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

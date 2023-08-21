@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            height:1500px;
+            width:50%;
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: 50px 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px 50px;
+            column-gap: 300px;
+            row-gap:400px;
+            color:white;
+            /* display:flex; */
+            /* justify-content:left; */
+        }
+        .grid-item{
+            height:300px;
+            width:300px;
+            border: 4px solid hotpink;
+            background-color: gray;
+        }
+        .grid-item1{
+            grid-column-start: 1;
+            grid-column-end:5 ;
+            width:650px;
+            /* margin-top: 0; */
+            position: relative;
+            left: 50px;
+            top: 70px;
+            
+            
+            
+            /* overflow: auto; */
+           
+        }
+        .grid-item6{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            width: 650px;
+            position:relative;
+            bottom:200px;
+            left:50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+        .grid-item2{
+           
+            position: relative;
+            bottom: 10px;
+            left: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* top:50px; */
+
+        }
+        .grid-item3{
+           
+           position: relative;
+           bottom: 10px;
+           left: 50px;
+           display: flex;
+            justify-content: center;
+            align-items: center;
+
+       }
+       .grid-item4{
+        
+           
+           position: relative;
+           bottom:100px;
+           left: 50px;
+           background-image: url(download\ \(7\).png);
+           background-size: cover;
+
+       }
+       .grid-item5{
+        position: relative;
+           bottom: 100px;
+           left: 50px;
+
+
+       }
+       
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+
+        <div class="grid-item grid-item1"><h1>Header</h1></div>
+        <div class="grid-item grid-item2"><h1>section</h1> </div>
+        <div class="grid-item grid-item3"><h1>Aside</h1></div><br><hr>
+        <div class="grid-item grid-item4"></div>
+        <div class="grid-item grid-item5"><p style="font-size: 25px;">#save soil was started by Jaggi vasudev(sadhguru).The agenda of the save soil is  to reduction of usage of land for heavy building constructions and digging of mines which are leads to global warming.</p></div><br>
+        <div class="grid-item grid-item6"><h1>@copyrights2023</h1></div>
+        <!-- <div class="grid-item grid-item7">item7</div> -->
+        <!-- <div class="grid-item grid-item8">item8</div> -->
+
+    </div>
+    
+</body>
+</html>

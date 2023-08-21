@@ -1,0 +1,62 @@
+body{
+    background-color:#9A208C;
+}
+#rachu{
+    position: relative;
+    right: 200px;
+}
+#unni{
+    position: relative;
+    right: 400px;
+    
+}
+#um{
+    position: relative;
+    right: 600px;
+}
+#unnirachu{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top:100px;
+    left:160px;
+}
+#rachu{
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    top:150px;
+    left: 160px;
+}
+#sai{
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    top:200px;
+    left: 160px;
+
+}
+#kedar{
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    top:250px;
+    left: 160px;
+
+}
+#bharu{
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    top:270px;
+    left: 160px;
+
+}
+#ashu{
+    display:flex;
+    justify-content:space-around;
+    position:relative;
+    top:300px;
+    left: 160px;
+
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>/* static,absolute,relative,fixed*/
+        div{
+            height: 550px;
+            width:550px;
+            background-color: aquamarine;
+            display: flex;
+
+            justify-content:space-around;
+            
+        }
+        #r{
+            height: 100px;
+            width:100px;
+            background-color: cornflowerblue;
+            border-color: black solid 3px;
+
+            position: relative;
+            z-index: 1;
+            /* bottom:500px; */
+            left:70px;
+            
+
+
+            
+        }
+        #a{
+            height: 100px;
+            width:100px;
+            background-color: darkorchid;
+            border-color: black solid 3px;
+            z-index: 2;
+
+
+        }
+        #c{
+            height: 100px;
+            width:100px;
+            background-color: darkblue;
+            border-color: black solid 3px;
+
+
+        }
+        #h{
+            height: 100px;
+            width:100px;
+            background-color: deeppink;
+            border-color: black solid 3px;
+
+        }
+
+    </style>
+        
+</head>
+
+<body>
+    <div>
+       <span id="r">1</span>
+       <span id="a">2</span>
+       <span id="c">3</span>
+       <span id="h">4</span>
+    </div>
+</body>
+</html>

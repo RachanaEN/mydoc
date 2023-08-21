@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/640267784/photo/bank-building.jpg?s=612x612&w=0&k=20&c=UTtm4t6WR-MLwO6ATq5l6n3SoCc6HpaClEFZMxO1Nek=);
+    background-repeat:no-repeat ;
+    background-size:100% 100vh ;
+    margin-left: 200px;
+}
+h1{
+    position: relative;
+    top: 90px;
+    left: 340px;
+    color: greenyellow ;
+    font-size:50px ;
+}
+button[type]
+{
+    position: relative;
+    top: 250px;
+    left: 200px;
+    margin: 10px;
+    height: 40px;
+    width: 220px;
+    background-color: black;
+    color: wheat;
+    border: 3px solid white;
+    font-size:25px bolder;
+}

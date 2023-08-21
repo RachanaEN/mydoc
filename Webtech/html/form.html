@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    &#128124
+
+<!--here we are using get and post attributes "get attribute show all data which we stored in the form in url" 
+so get is not secured . post attributr doesnot show all the data so it secured to use
+it is mandatory  to have name attribute in the input tag --->
+    <form action="" method="post">  
+        <fieldset style="width: 300px;background-color: aqua ;">
+            <legend>Form</legend>
+        <table border="2px" bgcolor="pink">
+            <tr>
+                <td>
+                    <label for="mm">First Name</label>
+                    
+                </td>
+                <td>
+                    <input type="text" id="mm" name="mm"required>
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="nn">Last Name</label>
+                    
+                </td>
+                <td>
+                    <input type="text" id="nn" name="nn" >
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <label for="pp">Password</label>
+                </td>
+                <td>
+                <input type="Password" id="pp" name="pp" required>
+                </td>
+                <tr>
+                    <td><label for="hh">Number</label></td>
+                    <td><input type="tel" id="hh" name="hh" required></td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="vk"></label>
+                    </td>
+                    <td><input type="image" id="vk" name="vk" src="images/download (1).jpg" height="200px" weidth="300px"></td>
+                </tr>
+                <tr>
+                    <td>
+                      <label for="oo">select suject</label>  
+                    </td>
+                    <td> <input type="checkbox" id="oo" name="oo" value="Telugu">telugu
+                        <input type="checkbox" id="oo" name="oo" value="kannada">kannada
+                        <input type="checkbox" id="oo" name="oo" value="English">English
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ff">choose file</label>
+                    </td>
+                    <td>
+                        <input type="file" id="ff" name="ff">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="ss">search</label>
+                    </td>
+                    <td><input type="search" id="ss" name="ss">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="uu">search by url</label>
+                    </td>
+                    <td>
+                        <input type="url" id="uu" name="uu">
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td>
+                        <label for="kk">choose a color</label>
+                    </td>
+                    <td>
+                        <input type="color" id="kk" name="kk">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rr">Range</label>
+                    </td>
+                    <td>
+                        <input type="range" id="rr" name="rr">
+                    </td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>
+                            <label for="dd">Date</label>
+                        </td>
+                        <td>
+                            <input type="Date" id="dd" name="dd">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for=""></label>
+                        </td>
+                    </tr>
+                    <td>
+                        <label for="uu">Address</label>
+                    </td>
+                    <td>
+                        <textarea name="" id="uu" cols="30" rows="10" required></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="hh">Branch</label>
+                    </td>
+                    <td>
+                        <select name="hh" id="hh">
+                        <option value="">States</option>
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="chennai">chennai</option>
+                        </select>
+                    </td>
+
+
+
+                </tr>
+
+            
+            <tr>
+                <td>
+                    <label for="ee">E-mail</label>
+
+                </td>
+                <td>
+                    <input type="E-mail" id="ee" name="ee">
+
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hh">Gender</label></td>
+                <td>
+                    <input type="radio" id="hh" name="mm" value="male" required>male
+                    <input type="radio" id="hh" name="mm" value="female" required>female
+                    <input type="radio" id="hh" name="mm" value="others" required>others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+                <td>
+                    <button type="Reset">
+                        Reset
+                    </button>
+                </td>
+            </tr>
+        </table>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

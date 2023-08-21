@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-container{
+            height:700px;
+            width:700px;
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;/*row,row-reverse,column,column-row */
+            justify-content:flex-start;/* flex-end,flex-start ,space-around,space-between,space-evenly,center*/
+            align-items: flext-start;
+        }
+        .flexboxitem{
+            height:100px;
+            width:100px;
+            margin: 5px;
+            /* color:gray; */
+            background-color: purple;
+            border: 2px solid hotpink
+
+        }
+        .flexbox-item1{
+            order:4;
+            
+
+        }
+        .flexbox-item2{
+            order: 5;   
+            flex-grow: 3;
+            /* align-self: flex-end; */
+
+        }
+        .flexbox-item3{
+            order:7;
+            flex-grow: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flexboxitem flexbox-item1">item1</div>
+        <div class="flexboxitem flexbox-item2">item2</div>
+        <div class="flexboxitem flexbox-item3">item3</div>
+        <div class="flexboxitem flexbox-item4">item4</div>
+    </div>
+</body>
+</html>

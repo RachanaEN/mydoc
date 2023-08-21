@@ -1,0 +1,18 @@
+pre::first-letter{
+    color: rebeccapurple;
+    font-size: 50px;
+}
+li::marker
+{
+    color:hotpink ;
+    font-size: 50px;
+}
+p::after{
+content: "=>>> Thank You" ;
+font-size: 50px;
+}
+p::before
+{
+    content: "Thats all about me";
+    font-size: 50px;
+}

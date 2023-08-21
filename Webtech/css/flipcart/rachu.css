@@ -1,0 +1,31 @@
+.dropdown{
+    position:relative;
+    right:100px;
+    top:10px;
+}
+.sai{
+    position: relative;
+    bottom:30px;
+    left:30px;
+}
+.container-fluid{
+    background-color: dodgerblue;
+    height:100px;
+}
+.form-control{
+    /* display: flex; */
+    /* justify-content: right; */
+    width:400px;
+    position: relative;
+    right:20px;
+
+}
+.brand{
+    position: relative;
+    right:100px;
+    font-size: 20px;
+}
+.lo{
+    position: relative;
+    right:50px;
+}

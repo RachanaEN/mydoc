@@ -1,0 +1,18 @@
+div{
+    height:400px;
+    width:400px;
+    display:flex;
+    justify-content: center;
+    background-color: hotpink;
+    align-items: center;
+    padding-top: 50px;
+    border: 50px aqua groove;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 1000px;
+    margin-left: 300px;
+    margin-right: 400px;
+
+
+}

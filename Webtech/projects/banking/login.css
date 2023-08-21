@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1193531888/photo/money-bag-with-coins-and-up-arrow-the-concept-of-a-successful-business-increase-profits-and.jpg?s=612x612&w=0&k=20&c=SAqKgvyh9W8EbfQxudYOOQrdxasdXTkalhpHO9vISGw=);
+
+background-repeat: no-repeat;
+background-size: 100% 100vh;
+}
+h1{
+    color:green;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: 40px;
+
+    top: 100px;
+    left: 30%;
+}
+button[type]{
+    height: 50px;
+    width: 120px;
+    position: relative;
+    top: 140px;
+    margin: 20px;
+    background-color:orange;
+    border-radius: 5px;
+    font-weight: bolder;
+    left: 500px;
+   
+    
+
+}
+.fa-solid{
+    border: 3px;
+    position: relative;
+    left: 500px;
+    top: 140px;
+    height: 150px;
+    z-index: 3;
+    
+}

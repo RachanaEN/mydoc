@@ -1,0 +1,28 @@
+#dubby{
+    background-color: darkorange;
+    color: darkviolet;
+    font-size: 60px;
+}
+.daddy{
+    background-color: aqua;
+    color: darkorange;
+    font-size: 60px;
+}
+h4{
+    background-color: darkviolet;
+    color: darkturquoise;
+    font-size:60px ;
+}
+h5,h4,h4{
+    background-color: dimgray;
+    color: darkorange;
+    font-size: 60px ;
+}
+i{
+    color: blue;
+    background-color: beige;
+}
+b{
+    color: blue;
+    background-color: beige;
+}

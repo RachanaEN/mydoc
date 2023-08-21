@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            height:3000px;
+            width:70%;
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: 50px 50px 50px 50px;
+            grid-template-rows: 50px 50px 50px 50px;
+            column-gap: 200px;
+            row-gap:300px;
+            color:white;
+        }
+        .grid-item{
+            height:200px;
+            width:200px;
+            border: 4px solid gray;
+            background-color: deeppink;
+        }
+        .grid-item1{
+            grid-column-start: 1;
+            grid-column-end:5 ;
+            width:1000px;
+            /* overflow: auto; */
+           
+        }
+        .grid-item8{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            width: 1000px;
+
+        }
+        .grid-item2{
+            grid-row-start: 2;
+            grid-row-end: 4;
+            height:600px;
+            /* overflow: auto; */
+        }
+        .grid-item3{
+            grid-column-start: 1;
+            grid-column-end: 5;
+            width: 700px;
+        }
+        .grid-item7{
+            grid-column-start:1 ;
+            grid-column-end: 5;
+            width:1000px;
+            background-color: cornflowerblue;
+            color:lightslategrey
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+
+        <div class="grid-item grid-item1"><h1>header</h1></div>
+        <div class="grid-item grid-item2">item2 <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta similique sapiente repellendus dolorem nesciunt in? Nostrum natus ex velit a! Fugit voluptates aspernatur illo vero explicabo eum dolore natus tempore labore placeat perferendis incidunt recusandae, nesciunt, corrupti inventore ea earum asperiores suscipit! Distinctio nisi ab cum obcaecati nostrum iure quisquam dicta repudiandae quidem, nobis temporibus deleniti, reprehenderit quasi illo. Hic quas soluta ipsum eligendi alias quaerat dicta suscipit. Rerum nihil rem quis, nisi voluptate exercitationem nobis quibusdam repellendus nulla quod magnam animi aspernatur delectus laboriosam impedit sit est eos! Quaerat consequuntur dolores doloremque. Atque culpa odio voluptate id nostrum aut!</div>
+        <div class="grid-item grid-item3">item3</div>
+        <div class="grid-item grid-item4">item4</div>
+        <div class="grid-item grid-item5">item5</div>
+        <div class="grid-item grid-item6">item6</div>
+        <div class="grid-item grid-item7">item7</div>
+        <div class="grid-item grid-item8">item8</div>
+
+    </div>
+</body>
+</html>

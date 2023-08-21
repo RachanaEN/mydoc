@@ -1,0 +1,22 @@
+
+.head{
+background-color: darkviolet;
+color: deeppink;
+}
+#para{
+background-color: hotpink;
+color: blueviolet;
+}
+p{
+background-color: darkorange;
+color: blueviolet;
+}
+*{
+    
+    color: blueviolet;
+    
+    
+}
+body{
+    background-color: aqua;
+}

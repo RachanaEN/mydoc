@@ -1,0 +1,67 @@
+#rachu{
+    height:500px;
+    width:500px;
+    border-width: 50px;
+    background-color: aquamarine;
+    border-style:solid;
+    border-color: darkgray;
+    border-top: 50px groove palevioletred;
+    
+}
+#sai{
+    height:500px;
+    width:500px;
+    border-width: 50px;
+    background-color: darkviolet;
+    border-style: groove;
+    border-color:orange ;
+    border-right: 50px dashed skyblue;
+    
+
+}
+#bharu{
+    height:500px;
+    width:500px;
+    border-width: 50px;
+    background-color:orchid;
+    border-color:gray ;
+    border-style: double;
+    border-bottom: 50px inset pink;
+}
+.kedar{
+    height:500px;
+    width:500px;
+    border-width: 50px;
+    background-color: darkgrey;
+    border-color: darkgreen;
+    border-style: dotted;
+    border-left: 50px solid green;
+    border-right: 50px solid green;
+    /* border-top-right-radius: 180px;
+    border-top-left-radius: 180px;
+    border-bottom-left-radius:180px ;
+    border-bottom-right-radius: 180px;
+     */
+}
+.suma{
+    height:500px;
+    width:500px;
+    border-width: 50px;
+    background-color: aqua;
+    border-color: hotpink;
+    border-style: dashed;
+    border-radius: 360px;
+    border-left:50px groove hotpink;
+    border-right: 50px groove hotpink;
+    
+}
+.pallu{
+    height:500px;
+    width:500px;
+    border-width: 50px;
+    background-color: darkorange;
+    border-color: darkorchid;
+    border-style: groove;
+    border-radius: 360px;
+
+}

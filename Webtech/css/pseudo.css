@@ -1,0 +1,28 @@
+/* h1::first-letter{ 
+    color: aqua;
+    background-color: hotpink;
+    font-size: 30px;
+} */
+/* h1::first-line{ 
+    color: aqua;
+    background-color: hotpink;
+    font-size: 50px;
+ } */
+ h1::before{ 
+    /* color: aqua; */
+    /* background-color: hotpink; */
+    /* font-size: 50px; */
+    content:"hello everyone=>>>";
+ }
+ /* h1::after{ */
+    /* content: "<<<=bye everyone"; */
+ /* } */
+ h1::selection{
+    color: aqua;
+ }
+ li::marker
+ {
+    color: skyblue;
+     
+ }
+ 

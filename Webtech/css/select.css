@@ -1,0 +1,20 @@
+#rachu{
+    background-color: dimgrey;
+    color: orange;
+}
+.god{
+    background-color: violet;
+    color: midnightblue;
+}
+i{
+    background-color: aqua;
+    color: darkorchid;
+}
+b{
+    background-color: deeppink;
+    color: indigo;
+}
+h1,h2,h3,h4,p,pre{
+    background-color: cyan;
+    color: blueviolet;
+}

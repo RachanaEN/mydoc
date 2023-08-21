@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1159375409/photo/financial-stock-exchange-market-display-screen-board-on-the-street.jpg?s=612x612&w=0&k=20&c=HUUdqLDsQNk7B4AUxkzp6YZFvn5B1SvWkLmd5_2tUBU=);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 200px;
+    width: 450px;
+    background-color: black;
+    line-height: 50px;
+    border: 3px groove black;
+    color: white;
+    position: relative;
+    left: 10px;
+    top: 40vh;
+    box-shadow: 10px 20px 30px 10px skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+button[type="submit"]{
+    height: 30px;
+    width: 80px;
+    border: 3px solid black;
+    background-color: gold;
+}
+button[type="reset"]{
+height: 30px;
+width: 80px;
+position: relative;
+left: 50px;
+border: 3px solid black;
+background-color:gold;
+}
+input[placeholder]
+{
+    position: relative;
+    height: 20px;
+    left: 10px;
+    border:3px solid cornflowerblue ;
+}
+form{
+    position: relative;
+    left: 30px;
+}
+b{
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+    font-size: 15px;
+}
+

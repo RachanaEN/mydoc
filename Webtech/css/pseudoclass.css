@@ -1,0 +1,25 @@
+a:link{
+    color: aqua;
+    font-size: 100px;
+}
+a:visited{
+    color:violet
+}
+a:hover{
+    color: cornflowerblue;
+}
+a:active{
+    color:hotpink
+}
+div{
+    height:400px;
+    width:400px;
+    background-color: aqua;
+    border: 50px groove hotpink;
+}
+div:hover{
+    height:400px;
+    width:400px;
+    background-color: hotpink;
+    border: 50px groove aqua;
+}

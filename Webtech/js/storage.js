@@ -1,0 +1,13 @@
+let lstorage=localStorage.setItem("id",1);
+let lstorage1=localStorage.setItem("name","rachana");
+console.log(lstorage,lstorage1);
+let get=localStorage.getItem("id");
+let get1=localStorage.getItem("name");
+console.log(get,get1);
+let re=localStorage.removeItem("id");
+// let clear=localStorage.removeItem("id");
+let sstorage=sessionStorage.setItem("color","red");
+let sstorage1=sessionStorage.setItem("name","abc");
+console.log(sessionStorage.getItem('color'));
+console.log(sessionStorage.removeItem('color'));
+console.log(sessionStorage.clear());

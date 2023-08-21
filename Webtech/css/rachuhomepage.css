@@ -1,0 +1,23 @@
+.header{
+    height: 490px;
+    width: 1000px;
+    font-family: cursive;
+    font-size: 50px;
+    color:#4D455D ;
+   background-color: #79E0EE;
+  
+
+    
+}
+.header1{
+    font-size: 20px;
+   /* position: top; */
+   margin-block-start: 0px;
+   margin-left: 400px;
+   display: flex;
+   justify-content: center;
+align-content: start;
+place-content:
+    
+    
+}
